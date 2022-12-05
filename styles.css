@@ -2,6 +2,7 @@ body
 {
     background-color: rgb(185, 18, 185);
     margin: 0;
+    font-family: 'staatliches', cursive;
 }
 
 /*Al hacerlo mediante otra estructura html, el ejemplo que se pedia era poco optimo
@@ -10,6 +11,16 @@ para mi caso en la version movil*/
 body h3
 {
     color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: .5rem;
+}
+body .container p
+{
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    margin: .5rem;
 }
 
 @media (max-width: 1439px)
@@ -63,7 +74,7 @@ body h3
     display: flex;
     flex-direction: column;
     align-items: center;
-   gap: 1rem;
+    gap: 1rem;
 }
 .firstGraph, .secondGraph
 {
